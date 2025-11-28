@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>每一天都是新的模样。</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+/* ====== 首页 12 张图片 ====== */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.row a img {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform .3s ease;
+}
+
+.row a img:hover {
+    transform: scale(1.15);
+}
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;margin-top:20px;">一天成长一点</h1>
+
+<!-- =================== 首页 12 个相册入口 =================== -->
+<div class="container">
+    <div class="row">
+        <a href="album1.php"><img src="/images/home/1.jpeg"></a>
+        <a href="album2.php"><img src="/images/home/2.jpeg"></a>
+        <a href="album3.php"><img src="/images/home/3.jpeg"></a>
+        <a href="album4.php"><img src="/images/home/4.jpeg"></a>
+    </div>
+    <div class="row">
+        <a href="album5.php"><img src="/images/home/5.jpeg"></a>
+        <a href="album6.php"><img src="/images/home/6.jpeg"></a>
+        <a href="album7.php"><img src="/images/home/7.jpeg"></a>
+        <a href="album8.php"><img src="/images/home/8.jpeg"></a>
+    </div>
+    <div class="row">
+        <a href="album9.php"><img src="/images/home/9.jpeg"></a>
+        <a href="album10.php"><img src="/images/home/10.jpeg"></a>
+        <a href="album11.php"><img src="/images/home/11.jpeg"></a>
+        <a href="album12.php"><img src="/images/home/12.jpeg"></a>
+    </div>
+</div>
+
+</body>
+</html>
